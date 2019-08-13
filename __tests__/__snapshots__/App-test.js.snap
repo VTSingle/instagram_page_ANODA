@@ -1,0 +1,1637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentBlock renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "url": "https://i.pinimg.com/originals/7c/48/dc/7c48dc6f57a97ce478f7949b33b0ac85.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 667,
+            "width": 750,
+          }
+        }
+      />
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "url": "https://i.pinimg.com/originals/4f/69/b4/4f69b4c959027702f8f07ac813c3cdd5.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 667,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 66.7,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/heart.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/comment.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/dirrect.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginRight": 112.5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00b8ff",
+            "borderRadius": 7.5,
+            "height": 15,
+            "margin": 3,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00b8ff",
+            "borderRadius": 7.5,
+            "height": 15,
+            "margin": 3,
+            "opacity": 0.3,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginRight": 22.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/flag.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "left": 3.75,
+        "width": 712.5,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "fontSize": 26.250000000000004,
+        }
+      }
+    >
+       Liked by
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+         
+        milena_trump, lenka_taranets_tensnailkitchen
+         
+      </Text>
+      and 
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+         others
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ContentBlock with props renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "url": "https://i.pinimg.com/originals/7c/48/dc/7c48dc6f57a97ce478f7949b33b0ac85.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 667,
+            "width": 750,
+          }
+        }
+      />
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "url": "https://i.pinimg.com/originals/4f/69/b4/4f69b4c959027702f8f07ac813c3cdd5.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 667,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 66.7,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/heart.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/comment.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/dirrect.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginRight": 112.5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00b8ff",
+            "borderRadius": 7.5,
+            "height": 15,
+            "margin": 3,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00b8ff",
+            "borderRadius": 7.5,
+            "height": 15,
+            "margin": 3,
+            "opacity": 0.3,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginRight": 22.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/assets/flag.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "marginLeft": 22.5,
+              "width": 45,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "left": 3.75,
+        "width": 712.5,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "fontSize": 26.250000000000004,
+        }
+      }
+    >
+       Liked by
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+         
+        milena_trump, lenka_taranets_tensnailkitchen
+         
+      </Text>
+      and 
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+         others
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PostsScreen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "avatar": "https://img5tv.cdnvideo.ru/shared/files/201904/1_904996.jpg",
+          "comment": "Beauty @anna_zavadskay 😀 🙏 🧠",
+          "data": "20190731",
+          "images": Array [
+            Object {
+              "url": "https://i.pinimg.com/originals/7c/48/dc/7c48dc6f57a97ce478f7949b33b0ac85.jpg",
+            },
+            Object {
+              "url": "https://i.pinimg.com/originals/4f/69/b4/4f69b4c959027702f8f07ac813c3cdd5.jpg",
+            },
+          ],
+          "liked_by": Array [
+            "milena_trump",
+            "lenka_taranets_tensnailkitchen",
+            "user_a",
+            "user_v",
+            "user_c",
+          ],
+          "location": "The Brow Bar Kharkov",
+          "username": "milena_thebrowbar",
+        },
+        Object {
+          "avatar": "https://img5tv.cdnvideo.ru/shared/files/201904/1_904996.jpg",
+          "comment": "Beauty 💋 👓 🌂",
+          "data": "20190721",
+          "images": Array [
+            Object {
+              "url": "https://bdbarta24x7.com/wp-content/uploads/2018/09/1101.jpg",
+            },
+            Object {
+              "url": "https://i.pinimg.com/originals/01/6b/8f/016b8fdcb616807d38e8d127c31a4d83.jpg",
+            },
+          ],
+          "liked_by": Array [
+            "milena_trump",
+            "lenka_taranets_tensnailkitchen",
+            "user_a",
+            "user_v",
+            "user_c",
+          ],
+          "location": "The Brow Bar Kharkov",
+          "username": "milena",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "flexDirection": "row",
+                  "height": 133.4,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginLeft": 15,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://img5tv.cdnvideo.ru/shared/files/201904/1_904996.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderColor": "#373737",
+                      "borderRadius": 37.5,
+                      "borderWidth": 0.5,
+                      "height": 75,
+                      "width": 75,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "flexDirection": "column",
+                    "height": 133.4,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginLeft": 15,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 26.250000000000004,
+                      }
+                    }
+                  >
+                    milena_thebrowbar
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#373737",
+                        "fontSize": 26.250000000000004,
+                      }
+                    }
+                  >
+                    The Brow Bar Kharkov &gt;
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "marginLeft": 15,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../app/assets/ellipsis.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 37.5,
+                      "marginRight": 37.5,
+                      "width": 37.5,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <RCTScrollView
+              horizontal={true}
+              onScroll={[Function]}
+              pagingEnabled={true}
+              scrollEventThrottle={16}
+              showsHorizontalScrollIndicator={false}
+            >
+              <View>
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "url": "https://i.pinimg.com/originals/7c/48/dc/7c48dc6f57a97ce478f7949b33b0ac85.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 667,
+                      "width": 750,
+                    }
+                  }
+                />
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "url": "https://i.pinimg.com/originals/4f/69/b4/4f69b4c959027702f8f07ac813c3cdd5.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 667,
+                      "width": 750,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 66.7,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/heart.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/comment.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/dirrect.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "marginRight": 112.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#00b8ff",
+                      "borderRadius": 7.5,
+                      "height": 15,
+                      "margin": 3,
+                      "opacity": 1,
+                      "width": 15,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#00b8ff",
+                      "borderRadius": 7.5,
+                      "height": 15,
+                      "margin": 3,
+                      "opacity": 0.3,
+                      "width": 15,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginRight": 22.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/flag.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "left": 3.75,
+                  "width": 712.5,
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "fontSize": 26.250000000000004,
+                  }
+                }
+              >
+                 Liked by
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                   
+                  milena_trump, lenka_taranets_tensnailkitchen
+                   
+                </Text>
+                and 
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  3
+                   others
+                </Text>
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "margin": 22.5,
+                "marginTop": 7.5,
+                "width": 712.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 26.250000000000004,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                milena_thebrowbar
+                 
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#373737",
+                    "fontSize": 26.250000000000004,
+                  }
+                }
+              >
+                Beauty @anna_zavadskay 😀 🙏 🧠
+                 
+              </Text>
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginTop": 7.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#373737",
+                    "fontSize": 22.5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                14 days ago
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "flexDirection": "row",
+                  "height": 133.4,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginLeft": 15,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://img5tv.cdnvideo.ru/shared/files/201904/1_904996.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderColor": "#373737",
+                      "borderRadius": 37.5,
+                      "borderWidth": 0.5,
+                      "height": 75,
+                      "width": 75,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "flexDirection": "column",
+                    "height": 133.4,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginLeft": 15,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 26.250000000000004,
+                      }
+                    }
+                  >
+                    milena
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#373737",
+                        "fontSize": 26.250000000000004,
+                      }
+                    }
+                  >
+                    The Brow Bar Kharkov &gt;
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "marginLeft": 15,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../app/assets/ellipsis.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 37.5,
+                      "marginRight": 37.5,
+                      "width": 37.5,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <RCTScrollView
+              horizontal={true}
+              onScroll={[Function]}
+              pagingEnabled={true}
+              scrollEventThrottle={16}
+              showsHorizontalScrollIndicator={false}
+            >
+              <View>
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "url": "https://bdbarta24x7.com/wp-content/uploads/2018/09/1101.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 667,
+                      "width": 750,
+                    }
+                  }
+                />
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "url": "https://i.pinimg.com/originals/01/6b/8f/016b8fdcb616807d38e8d127c31a4d83.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 667,
+                      "width": 750,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 66.7,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/heart.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/comment.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/dirrect.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "marginRight": 112.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#00b8ff",
+                      "borderRadius": 7.5,
+                      "height": 15,
+                      "margin": 3,
+                      "opacity": 1,
+                      "width": 15,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#00b8ff",
+                      "borderRadius": 7.5,
+                      "height": 15,
+                      "margin": 3,
+                      "opacity": 0.3,
+                      "width": 15,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginRight": 22.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "testUri": "../../../app/assets/flag.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 45,
+                        "marginLeft": 22.5,
+                        "width": 45,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "left": 3.75,
+                  "width": 712.5,
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "fontSize": 26.250000000000004,
+                  }
+                }
+              >
+                 Liked by
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                   
+                  milena_trump, lenka_taranets_tensnailkitchen
+                   
+                </Text>
+                and 
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  3
+                   others
+                </Text>
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "margin": 22.5,
+                "marginTop": 7.5,
+                "width": 712.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 26.250000000000004,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                milena
+                 
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#373737",
+                    "fontSize": 26.250000000000004,
+                  }
+                }
+              >
+                Beauty 💋 👓 🌂
+                 
+              </Text>
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginTop": 7.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#373737",
+                    "fontSize": 22.5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                24 days ago
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
